@@ -72,6 +72,11 @@ nav a:hover {
   opacity: 0.6;
 }
 
+nav a.active {
+  border-bottom: 2px solid #111111;
+  padding-bottom: 4px;
+}
+
 /* MAIN CONTENT */
 main {
   max-width: 1100px;
