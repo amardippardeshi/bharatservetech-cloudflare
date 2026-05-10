@@ -12,7 +12,16 @@
 
 /* BODY */
 body {
-  font-family: Arial, sans-serif;
+  font-family:
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  Roboto,
+  Oxygen,
+  Ubuntu,
+  Cantarell,
+  sans-serif;
+   
   background-color: #ffffff;
   color: #111111;
   line-height: 1.6;
