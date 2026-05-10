@@ -96,6 +96,11 @@ footer {
   margin-top: 40px;
 }
 
+/* SPACING UTILITIES */
+.spacer {
+  height: 24px;
+}
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
 
