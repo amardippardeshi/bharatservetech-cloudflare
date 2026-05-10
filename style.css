@@ -1,37 +1,104 @@
-body {
-  font-family: Arial, sans-serif;
+/* ========================================
+   BHARAT SERVE TECH
+   Enterprise CSS System V1
+======================================== */
+
+/* RESET */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #111111;
   line-height: 1.6;
 }
 
+/* HEADER */
 header {
-  background: #111;
-  color: white;
-  padding: 20px;
-}
-
-nav {
-  margin-top: 10px;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  margin-right: 15px;
-}
-
-main {
-  padding: 40px;
-}
-
-section {
-  max-width: 900px;
-}
-
-footer {
-  background: #f4f4f4;
   text-align: center;
-  padding: 20px;
-  margin-top: 40px;
+  padding: 60px 20px 40px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* MAIN BRAND */
+header h1 {
+  font-size: 42px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+/* BRAND POSITIONING */
+header h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #444444;
+}
+
+/* MAIN CONTENT */
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+/* SECTION TITLE */
+section h3 {
+  font-size: 28px;
+  margin-bottom: 24px;
+  color: #111111;
+}
+
+/* SERVICE LIST */
+ul {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+ul li {
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+/* DESCRIPTION */
+section p {
+  font-size: 18px;
+  color: #333333;
+  max-width: 850px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  border-top: 1px solid #e5e5e5;
+  color: #666666;
+  font-size: 14px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+  header h1 {
+    font-size: 30px;
+  }
+
+  header h2 {
+    font-size: 18px;
+  }
+
+  section h3 {
+    font-size: 24px;
+  }
+
+  ul li,
+  section p {
+    font-size: 16px;
+  }
+
 }
