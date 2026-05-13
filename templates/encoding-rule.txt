@@ -1,0 +1,3 @@
+RULE: All files MUST use UTF-8 encoding only.
+Never use ANSI / Windows-1252.
+Special characters (©, ®, ₹) must be saved in UTF-8.
