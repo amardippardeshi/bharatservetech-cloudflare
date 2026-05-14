@@ -157,3 +157,49 @@ nav a {
    
 }
 
+/* ========================================
+   UI ENTERPRISE LAYER v1
+   Floating Action Buttons
+======================================== */
+
+.bst-float-container {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 9999;
+}
+
+.bst-btn {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #111;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.bst-btn:hover {
+  transform: scale(1.08);
+}
+
+.bst-wa { background: #25D366; }
+.bst-call { background: #0A66C2; }
+.bst-quote { background: #ff7a00; }
+
+.bst-btn:active {
+  transform: scale(0.95);
+}
+
+.bst-btn {
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
