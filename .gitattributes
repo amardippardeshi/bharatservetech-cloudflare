@@ -1,4 +1,19 @@
-*.html text eol=lf working-tree-encoding=UTF-8
-*.css text eol=lf
-*.js text eol=lf
-*.ps1 text eol=lf
+# =========================
+# BHARAT SERVE TECH - STABLE ENCODING RULES
+# =========================
+
+# Text files
+*.html text eol=lf
+*.css  text eol=lf
+*.js   text eol=lf
+*.ps1  text eol=lf
+
+# Force UTF-8 normalization (safe modern Git standard)
+* text=auto
+
+# Prevent binary corruption
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
