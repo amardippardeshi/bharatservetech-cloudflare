@@ -1,4 +1,3 @@
-```javascript
 async function loadComponent(id, file) {
 
   try {
@@ -20,4 +19,3 @@ async function loadComponent(id, file) {
   }
 
 }
-```
