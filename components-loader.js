@@ -1,15 +1,23 @@
-<!-- CTA SYSTEM START -->
-<div id="bst-cta"></div>
+```javascript
+async function loadComponent(id, file) {
 
-<script src="components-loader.js" defer></script>
+  try {
 
-<script>
-window.addEventListener("load", function () {
-  if (typeof loadComponent === "function") {
-    loadComponent("bst-cta", "components/cta.html");
-  } else {
-    console.error("CTA Loader not found");
+    const response = await fetch(file);
+
+    if (!response.ok) {
+      throw new Error("Component load failed");
+    }
+
+    const html = await response.text();
+
+    document.getElementById(id).innerHTML = html;
+
+  } catch (error) {
+
+    console.error("Component Loader Error:", error);
+
   }
-});
-</script>
-<!-- CTA SYSTEM END -->
+
+}
+```
