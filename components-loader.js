@@ -1,7 +1,15 @@
-function loadComponent(id, file) {
-  fetch(file)
-    .then(response => response.text())
-    .then(html => {
-      document.getElementById(id).innerHTML = html;
-    });
-}
+<!-- CTA SYSTEM START -->
+<div id="bst-cta"></div>
+
+<script src="components-loader.js" defer></script>
+
+<script>
+window.addEventListener("load", function () {
+  if (typeof loadComponent === "function") {
+    loadComponent("bst-cta", "components/cta.html");
+  } else {
+    console.error("CTA Loader not found");
+  }
+});
+</script>
+<!-- CTA SYSTEM END -->
