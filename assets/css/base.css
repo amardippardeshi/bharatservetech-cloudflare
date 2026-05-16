@@ -138,3 +138,21 @@ p {
 /* =========================
    END OF CONSISTENCY LAYER
    ========================= */
+
+   /* =========================
+   COMPONENT SYSTEM V1
+   ========================= */
+
+.service-card {
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* =========================
+   END COMPONENT SYSTEM
+   ========================= */
