@@ -65,16 +65,6 @@ p {
     grid-template-columns: 1fr;
 }
 
-/* ===== 6. CARD BASE SYSTEM ===== */
-.hero-feature,
-.capability-card,
-.solution-step {
-    padding: 16px;
-    border: 1px solid #eee;
-    border-radius: 8px;
-    background: #fff;
-}
-
 /* ===== 7. HEADER SPACING SYSTEM ===== */
 .section-header {
     margin-bottom: 20px;
@@ -102,16 +92,6 @@ p {
 .section-header p {
     margin-top: 6px;
     color: #666;
-}
-
-/* ===== CARD BEHAVIOR SYSTEM ===== */
-.hero-feature,
-.capability-card,
-.solution-step {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    min-height: 120px;
 }
 
 /* ===== 3. GRID ALIGNMENT CONTROL ===== */
@@ -148,9 +128,12 @@ p {
     border: 1px solid #ddd;
     border-radius: 10px;
     background: #fff;
+
     display: flex;
     flex-direction: column;
     gap: 8px;
+
+    min-height: 120px;
 }
 
 /* =========================
